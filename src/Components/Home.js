@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Formtable from './Formtable';
 
-axios.defaults.baseURL = "http://localhost:8080/";
+axios.defaults.baseURL = "https://rablo-mxwc.onrender.com";
 
 function Home() {
   const [addSection, setAddSection] = useState(false);

@@ -9,7 +9,7 @@ function Login(){
     async function submit(e){
         e.preventDefault();
         try{
-            await axios.post("http://localhost:8080/login",{
+            await axios.post("https://rablo-mxwc.onrender.com/login",{
                 email,password
             })
             .then(res=>{
